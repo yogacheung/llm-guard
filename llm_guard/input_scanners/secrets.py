@@ -400,6 +400,10 @@ _default_detect_secrets_config = {
             "path": _custom_plugins_path + "/typeform_api_token.py",
         },
         {
+            "name": "TuyaSmartDetector",
+            "path": _custom_plugins_path + "/tuya.py",
+        },
+        {
             "name": "VaultDetector",
             "path": _custom_plugins_path + "/vault.py",
         },
