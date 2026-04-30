@@ -280,6 +280,10 @@ _default_detect_secrets_config = {
             "path": _custom_plugins_path + "/microsoft_teams_webhook.py",
         },
         {
+            "name": "MQTTDetector",
+            "path": _custom_plugins_path + "/mqtt.py",
+        },
+        {
             "name": "NetlifyAccessTokenDetector",
             "path": _custom_plugins_path + "/netlify_access_token.py",
         },
@@ -414,6 +418,10 @@ _default_detect_secrets_config = {
         {
             "name": "ZendeskSecretKeyDetector",
             "path": _custom_plugins_path + "/zendesk_secret_key.py",
+        },
+        {
+            "name": "ZigbeeDetector",
+            "path": _custom_plugins_path + "/zigbee.py",
         },
         {"name": "Base64HighEntropyString", "limit": 4.5},
         {"name": "HexHighEntropyString", "limit": 3.0},
